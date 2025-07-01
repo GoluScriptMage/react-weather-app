@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import HumidityImg from "../assets/humidity.png";
 import WindImg from "../assets/wind.png";
-import ClearIcon from "../assets/clear.png";
 import { ApiContext } from "../context/ApiContext";
 
 const CardContent = () => {
@@ -11,7 +10,11 @@ const CardContent = () => {
 
   return (
     <div className="flex flex-col items-center w-full">
-      <img src={iconPath} alt="Weather image" className="w-24 h-24 mb-4" />
+      <img
+        src={iconPath}
+        alt="Weather image"
+        className="w-24 h-24 mb-8 pt-4"
+      />
       <h3 className="text-3xl font-bold mb-1 text-gray-800">{temp}°C</h3>
       <h3 className="text-lg text-gray-500 mb-4">{city}</h3>
       <div className="flex flex-col sm:flex-row justify-between w-full mt-4 gap-4">
