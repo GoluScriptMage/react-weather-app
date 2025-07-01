@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import SearchIcon from "../assets/search.png";
+import SearchIcon from "../Assets/search.png";
 import { ApiContext } from "../context/ApiContext";
 import { handleSearch } from "../utils/handleSearch";
 
@@ -10,7 +10,9 @@ const CardHeader = () => {
 
   const handleSubmit = () => {
     if (
-      (inputCity.trim() === "" || inputCity.length < 1 || inputCity.length > 20)
+      inputCity.trim() === "" ||
+      inputCity.length < 1 ||
+      inputCity.length > 20
     ) {
       dataDispatch({
         type: "SET_ERROR",

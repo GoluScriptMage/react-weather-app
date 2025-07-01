@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
-import HumidityImg from "../assets/humidity.png";
-import WindImg from "../assets/wind.png";
+import HumidityImg from "../Assets/humidity.png";
+import WindImg from "../Assets/wind.png";
 import { ApiContext } from "../context/ApiContext";
 
 const CardContent = () => {

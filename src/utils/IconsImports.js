@@ -1,8 +1,8 @@
-import ClearIcon from "../assets/clear.png";
-import CloudIcon from "../assets/cloud.png";
-import RainIcon from "../assets/rain.png";
-import SnowIcon from "../assets/snow.png";
-import DrizzleIcon from "../assets/drizzle.png";
+import ClearIcon from "../Assets/clear.png";
+import CloudIcon from "../Assets/cloud.png";
+import RainIcon from "../Assets/rain.png";
+import SnowIcon from "../Assets/snow.png";
+import DrizzleIcon from "../Assets/drizzle.png";
 
 const iconMap = {
   clear: ClearIcon,
